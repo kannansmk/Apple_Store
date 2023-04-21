@@ -1,0 +1,69 @@
+b {
+    color: white;
+}
+
+body {
+    /* background-color: blueviolet; */
+    background-image: url(../images/background.jpg);
+    background-size: 100%;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    padding-top: 8%;
+}
+
+div {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    padding: 20px;
+    padding-top: 1px;
+    /* background color */
+    background: rgba(255, 255, 255, 0.11);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(9.6px);
+    -webkit-backdrop-filter: blur(8.6px);
+    border: 3px solid rgba(90, 89, 89, 0.89);
+    border-radius: 20px;
+}
+
+button {
+    color: antiquewhite;
+    font-weight: 900;
+    padding: 4px 10px;
+    border-radius: 10px;
+    border: 2px solid rgba(90, 89, 89, 0.89);
+    background: rgba(255, 255, 255, 0.11);
+    box-shadow: 2px 2px 3px;
+}
+
+button:hover,
+button>a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+button>a {
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+
+/* admin login */
+
+h2 {
+    float: right;
+    padding: 10px;
+    padding-right: 25px;
+}
+
+.admin {
+    border-radius: 20px;
+    border: 3px solid rgba(90, 89, 89, 0.89);
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.11);
+    backdrop-filter: blur(9.6px);
+}
